@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  gmake:
+    restart: always
+    image: ichiharanaruki/gmake:latest
+    container_name: 'gmake'
+    working_dir: '/root/'
+    tty: true
+    volumes:
+    - ../:/workdir

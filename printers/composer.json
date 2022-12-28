@@ -1,0 +1,4 @@
+{
+    "header":"G21\nG90\nM82\nG28\nM530 S1\nG1 Z10 F900\nM400\nT0 R\nG92 E0\n",
+    "footer":"M400\nM104 S0 T0\nM106 P1 S0\nG91\nG1 Z20 F900\nG90\nG28\nM530 S0"
+}
