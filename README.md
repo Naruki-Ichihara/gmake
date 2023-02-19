@@ -1,6 +1,7 @@
 <h1 align=center>gmake</h1>
 
 ## Reproducibility
+[![DOI](https://zenodo.org/badge/582837807.svg)](https://zenodo.org/badge/latestdoi/582837807)
 ### Environment
 This source code depends on the following external software and python3. To enforce the reproducibility of our study, we recommend using our container.
 The container is based on Ubuntu20.04 with python3.8, and the following libraries have been installed:
