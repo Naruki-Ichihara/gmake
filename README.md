@@ -1,7 +1,5 @@
 <h1 align=center>gmake</h1>
 
-> This is code for paper "Improvement of mechanical properties of 3D-printed continuous carbon fiber reinforced polymers by fiber tensioning and compaction during printing."
-
 ## Reproducibility
 ### Environment
 This source code depends on the following external software and python3. To enforce the reproducibility of our study, we recommend using our container.
@@ -23,8 +21,8 @@ cd .docker_gmake && docker-compose up
 ```
 
 ### Usage
-To generate G-code for each specimen, please run the python file that is named specimens code.
-The specimens code follows the following rule.
+To generate the G-code for each specimen, please run the python file that is named specimens code.
+The specimens' code follows the following rule.
 ```
 IdenficationChalacter_LayerHeight_TensionRate.py
 ```
